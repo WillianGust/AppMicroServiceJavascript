@@ -33,4 +33,5 @@ const lerArquivo = arquivo => {
   });
 }
 
-
+Teste
+para rodr os tests com o jasmine no terminal fazer por exemple: npx jasmine
