@@ -33,5 +33,10 @@ const lerArquivo = arquivo => {
   });
 }
 
-Teste
-para rodr os tests com o jasmine no terminal fazer por exemple: npx jasmine
+Teste Model
+para rodar os testes com o jasmine no terminal fazer por exemple: npx jasmine
+
+Test controller
+
+criar past contorller e um file para o teste do controller
+adicionar no file o as contantes para o request e tb o host

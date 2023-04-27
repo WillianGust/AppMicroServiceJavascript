@@ -1,9 +1,22 @@
-var Adm = require('../models/adm');
-
+var Adm = require('../../app/models/adm');
 
 const AdmControler = {
   index: function(req, res, next) {
-    res.send(Adm.todos());
+    const adm = new Adm({nome: 'Kitten'});
+    adm.save(error => {
+      res.send(error);
+
+    });
+
+  //   adm.save().then((err, dado) => {
+  //     console.log(err);
+  //     console.log(dado);
+  //     res.send([]);
+  //   }).then(() => {
+  //     Adm.find().then(dado => {
+  //       res.send(dado);
+  //     });
+  //   });
   }
 }
 
